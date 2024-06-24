@@ -1,0 +1,3 @@
+$colore_testo_hover: red;
+
+@use 'bootstrap'with($navbar-light-hover-color: $colore_testo_hover)
