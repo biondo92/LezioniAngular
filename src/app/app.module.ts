@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { PrimoComponenteComponent } from './_componenti/primo-componente/primo-componente.component';
 import { NavbarComponent } from './_componenti/navbar/navbar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     PrimoComponenteComponent,
     NavbarComponent
+
   ],
   imports: [
     BrowserModule,
