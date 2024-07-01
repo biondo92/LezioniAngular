@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PrimoComponenteComponent } from './primo-componente.component';
+import { PrimoComponenteComponent } from './PrimoComponenteComponent';
 
 describe('PrimoComponenteComponent', () => {
   let component: PrimoComponenteComponent;

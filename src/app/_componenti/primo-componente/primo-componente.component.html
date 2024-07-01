@@ -1,1 +1,40 @@
-<p>{{stringa}}</p>
+<h1 [textContent]="'Ciao titolo'"></h1>
+
+
+<p [style.backgroundColor]="'#3D2B1F'">{{stringa}}</p>
+
+
+<p>{{ 'Ciao come va' }}</p>
+
+<p>{{ 6+79 }}</p>
+
+<p>{{ (stringa!='') ? 'piena' : 'vuota' }}</p>
+
+<p>{{ getValoreStringa() }}</p>
+
+<p>{{ getValoreStringa().toUpperCase() }}</p>
+
+<p>{{ getComplesso() }}</p>
+
+
+<img [src]="image">
+<hr>
+
+
+<button type="button" class="btn btn-primary" [disabled]="obj.btn" [textContent]="obj.lb" disabled></button>
+
+<hr>
+
+<table>
+    <tr>
+        <td colspan="2">1</td>
+        <!--<td>2<td>-->
+    </tr>
+    <tr>
+        <td width="200" [class.class1]="true" [class.class3]="true">3</td>
+        <td width="200" class="class1 class3" [class]="classeTD">4</td>
+    </tr>
+</table>
+<hr>
+
+<button type="button">Cambia cella</button>
