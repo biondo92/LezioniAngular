@@ -31,10 +31,40 @@
         <!--<td>2<td>-->
     </tr>
     <tr>
-        <td width="200" [class.class1]="true" [class.class3]="true">3</td>
+        <td width="200" [class.class1]="obj2.cls1" [class.class3]="obj2.cls3">3</td>
         <td width="200" class="class1 class3" [class]="classeTD">4</td>
     </tr>
 </table>
 <hr>
 
-<button type="button">Cambia cella</button>
+<button type="button" class="btn btn-primary" (click)="cambiaCella($event)">Cambia cella</button>
+
+<p>
+    <span>Y : {{ coord.y }}</span> - <span>X : {{ coord.x }}</span>
+</p>
+
+<hr>
+
+<form>
+    <label>Valore</label>
+    <input type="number" id="valore" name="valore" [ngModel]="val" (ngModelChange)="aggiorna($event)">
+    <br>
+    <span>Valore: {{ val }}</span>
+</form>
+<hr>
+
+<form>
+    <label>Valore2</label>
+    <input type="number" id="Valore2" name="valore" [(ngModel)]="val2">
+    <br>
+    <button type="button" class="btn btn-primary" (click)="setValore()">Cambia in valore 40 dopo 3 secondi</button>
+    <span>Valore: {{ val2}}</span>
+</form>
+
+
+<hr>
+<hr>
+
+
+<button type="button" class="btn btn-primary" (click)="clickBtn(5,2)">Calcola 5+2</button>
+<div>Risultato somma:{{ somma }}</div>
