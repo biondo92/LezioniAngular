@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PrimoComponenteComponent } from './_componenti/primo-componente/PrimoComponenteComponent';
 import { NavbarComponent } from './_componenti/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { MiadirDirective } from './_direttive/miadir.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimoComponenteComponent,
-    NavbarComponent
+    NavbarComponent,
+    MiadirDirective
 
   ],
   imports: [
