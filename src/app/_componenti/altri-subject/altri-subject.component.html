@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-6">
+        <button type="button" class="btn btn-primary" (click)="clickSub()">Avvia subject</button>
+        <div class="dati">Dati subject: {{datiSub}}</div>
+    </div>
+    <div class="col-6">
+        <button type="button" class="btn btn-primary" (click)="clickBehavior()">Avvia behavior</button>
+        <div class="dati">Dati behavior: {{datiBehavior}}</div>
+    </div>
+</div>
+
+
+
+
+
+<hr>
+
+<div class="row">
+    <div class="col-6">
+        <button type="button" class="btn btn-primary" (click)="clickReplay()">Avvia replay</button>
+        <div class="dati">Dati replay: {{datiReplay | json}}</div>
+    </div>
+
+    <div class="col-6">
+        <button type="button" class="btn btn-primary" (click)="clickAsync()">Avvia async</button>
+        <div class="dati">Dati async: {{datiAsync}}</div>
+    </div>
+</div>

@@ -7,6 +7,8 @@ import { PrimoComponenteComponent } from './_componenti/primo-componente/PrimoCo
 import { NavbarComponent } from './_componenti/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { MiadirDirective } from './_direttive/miadir.directive';
+import { SubjectComponent } from './_componenti/subject/subject.component';
+import { AltriSubjectComponent } from './_componenti/altri-subject/altri-subject.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { MiadirDirective } from './_direttive/miadir.directive';
     AppComponent,
     PrimoComponenteComponent,
     NavbarComponent,
-    MiadirDirective
+    MiadirDirective,
+    SubjectComponent,
+    AltriSubjectComponent
 
   ],
   imports: [
