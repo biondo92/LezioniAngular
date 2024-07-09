@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { MiadirDirective } from './_direttive/miadir.directive';
 import { SubjectComponent } from './_componenti/subject/subject.component';
 import { AltriSubjectComponent } from './_componenti/altri-subject/altri-subject.component';
+import { DirettivaIfComponent } from './_componenti/direttiva-if/direttiva-if.component';
+
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { AltriSubjectComponent } from './_componenti/altri-subject/altri-subject
     NavbarComponent,
     MiadirDirective,
     SubjectComponent,
-    AltriSubjectComponent
+    AltriSubjectComponent,
+    DirettivaIfComponent
 
   ],
   imports: [
