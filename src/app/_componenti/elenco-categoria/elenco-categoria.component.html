@@ -1,0 +1,6 @@
+<h1>Elenco Categorie</h1>
+
+<ul>
+    <li *ngFor="let cat of arrCat, index as indice" (click)="clickSelezionaCategoria(cat)"><a href="#">{{indice}}.
+            {{cat.nome}}</a></li>
+</ul>

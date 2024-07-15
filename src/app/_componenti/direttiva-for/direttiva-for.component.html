@@ -1,0 +1,26 @@
+<div>
+    <h1>Elenco colori:</h1>
+    <p
+        *ngFor="let colore of arrColori;index as indice;first as isFirst;last as isLast;odd as isDispari;even as isPari;count as numeroElementi">
+        {{indice}} -
+        {{colore}} è il
+        primo elemento?
+        {{isFirst}} - è l'ultimo elemento? {{isLast}} - è dispari? {{isDispari}} - è pari? {{isPari}} - {{indice}} di
+        {{numeroElementi}}</p>
+</div>
+
+<button type="button" class="btn btn-secondary" (click)="clickBtn()">Aggiungi colore</button>
+
+<hr>
+
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+        <li *ngFor="let menu of arrVociMenu"><a class="dropdown-item" href="{{menu.url}}"
+                title="{{menu.title}}">{{menu.nome}}</a></li>
+
+    </ul>
+</div>

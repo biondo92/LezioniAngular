@@ -9,9 +9,16 @@
 
   <!--<app-subject></app-subject>-->
   <!--<app-altri-subject></app-altri-subject>-->
-  <app-direttiva-if></app-direttiva-if>
-</main>
+  <!--<app-direttiva-if></app-direttiva-if>-->
+  <!--<app-direttiva-for></app-direttiva-for>-->
+  <hr>
+  <app-elenco-categoria (selezionaCategoria)="selezionaCategoria($event)"></app-elenco-categoria>
+  <hr>
+  <app-elenco-libri [categoriaSelezionata]="categoriaSelezionata"></app-elenco-libri>
 
+  <hr>
+</main>
+<hr>
 <footer>
   <p>Footer</p>
 

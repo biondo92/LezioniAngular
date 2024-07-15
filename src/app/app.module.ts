@@ -10,6 +10,9 @@ import { MiadirDirective } from './_direttive/miadir.directive';
 import { SubjectComponent } from './_componenti/subject/subject.component';
 import { AltriSubjectComponent } from './_componenti/altri-subject/altri-subject.component';
 import { DirettivaIfComponent } from './_componenti/direttiva-if/direttiva-if.component';
+import { DirettivaForComponent } from './_componenti/direttiva-for/direttiva-for.component';
+import { ElencoCategoriaComponent } from './_componenti/elenco-categoria/elenco-categoria.component';
+import { ElencoLibriComponent } from './_componenti/elenco-libri/elenco-libri.component';
 
 
 
@@ -21,7 +24,10 @@ import { DirettivaIfComponent } from './_componenti/direttiva-if/direttiva-if.co
     MiadirDirective,
     SubjectComponent,
     AltriSubjectComponent,
-    DirettivaIfComponent
+    DirettivaIfComponent,
+    DirettivaForComponent,
+    ElencoCategoriaComponent,
+    ElencoLibriComponent
 
   ],
   imports: [
