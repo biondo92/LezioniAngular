@@ -13,6 +13,8 @@ import { DirettivaIfComponent } from './_componenti/direttiva-if/direttiva-if.co
 import { DirettivaForComponent } from './_componenti/direttiva-for/direttiva-for.component';
 import { ElencoCategoriaComponent } from './_componenti/elenco-categoria/elenco-categoria.component';
 import { ElencoLibriComponent } from './_componenti/elenco-libri/elenco-libri.component';
+import { ElementoCategorieSubjectComponent } from './_componenti/elemento-categorie-subject/elemento-categorie-subject.component';
+import { ElementoLibriSubjectComponent } from './_componenti/elemento-libri-subject/elemento-libri-subject.component';
 
 
 
@@ -27,7 +29,9 @@ import { ElencoLibriComponent } from './_componenti/elenco-libri/elenco-libri.co
     DirettivaIfComponent,
     DirettivaForComponent,
     ElencoCategoriaComponent,
-    ElencoLibriComponent
+    ElencoLibriComponent,
+    ElementoCategorieSubjectComponent,
+    ElementoLibriSubjectComponent
 
   ],
   imports: [

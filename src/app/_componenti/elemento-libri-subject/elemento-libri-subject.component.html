@@ -1,0 +1,13 @@
+<h1>Libri selezionati</h1>
+
+<div *ngIf="arrLibri.length>0">
+    <ul>
+        <li *ngFor="let libro of arrLibri;index as indice">
+            <div>Titolo:{{libro.titolo}}</div>
+            <div>Autore:{{libro.autore}}</div>
+        </li>
+    </ul>
+</div>
+<div *ngIf="!(arrLibri.length>0)">
+    Nessun libro selezionato
+</div>
