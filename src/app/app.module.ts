@@ -15,6 +15,11 @@ import { ElencoCategoriaComponent } from './_componenti/elenco-categoria/elenco-
 import { ElencoLibriComponent } from './_componenti/elenco-libri/elenco-libri.component';
 import { ElementoCategorieSubjectComponent } from './_componenti/elemento-categorie-subject/elemento-categorie-subject.component';
 import { ElementoLibriSubjectComponent } from './_componenti/elemento-libri-subject/elemento-libri-subject.component';
+import { HomeComponent } from './_pagine/home/home.component';
+import { ChiSiamoComponent } from './_pagine/chi-siamo/chi-siamo.component';
+import { ContattiComponent } from './_pagine/contatti/contatti.component';
+import { Pagina404Component } from './_pagine/pagina404/pagina404.component';
+import { MenuAltoComponent } from './_componenti/menu-alto/menu-alto.component';
 
 
 
@@ -31,7 +36,12 @@ import { ElementoLibriSubjectComponent } from './_componenti/elemento-libri-subj
     ElencoCategoriaComponent,
     ElencoLibriComponent,
     ElementoCategorieSubjectComponent,
-    ElementoLibriSubjectComponent
+    ElementoLibriSubjectComponent,
+    HomeComponent,
+    ChiSiamoComponent,
+    ContattiComponent,
+    Pagina404Component,
+    MenuAltoComponent
 
   ],
   imports: [
