@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Categoria } from '../type/categoria.type';
 import { Libro } from '../type/libro.type';
+import { ChiamataHTTP, ChiamateHTTP } from '../type/chiamateHTTP.type';
 
 @Injectable({
   providedIn: 'root'
@@ -40,4 +41,9 @@ export class ApiService {
     ]
     return arrLibro
   }
+
+
+  //------------------------------------------------------------------------
+
+  protected richiestaGenerica(risorsa: (string | number)[], tipo: ChiamataHTTP)
 }
